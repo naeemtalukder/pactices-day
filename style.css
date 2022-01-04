@@ -39,3 +39,29 @@ h2{
     background-repeat: no-repeat;
     background-position: right;
 }
+.box-item{
+    width: 40%;
+    border-radius: 10px;
+    padding: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+}
+.expria{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(cyan, blue);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
